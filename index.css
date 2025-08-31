@@ -7,6 +7,15 @@ body {
 	width: 1100px;
 	margin: 0 auto;
 }
+.button_primary {
+	background: #f3db61;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
 /******************************
  * Header Section Start
  * ****************************/
@@ -38,4 +47,43 @@ body {
 .hero {
 	background: #236c44;
 	padding: 50px;
+	border-radius: 10px;
+}
+.hero .hero_title {
+	color: white;
+	font-size: 50px;
+}
+.hero .hero_description {
+	color: rgb(220, 220, 220);
+	font-size: 20px;
+	width: 50%;
+}
+/******************************
+ * Hero Section End
+ * ****************************/
+
+.client {
+	display: flex;
+	padding: 40px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+.client_left {
+	width: 50%;
+	padding: 5px 20px;
+}
+.client_title {
+	font-size: 40px;
+}
+.client_right {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.client_logo {
+	width: 150px;
+	height: 55px;
+	background: rgb(238, 236, 236);
+	border-radius: 5px;
 }
